@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <!--Boostrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--Bootstrap Icons-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <p class="fs-3 fw-semibold">1. Grid Básico</p>
+        <div class="row">
+
+            <!--Usando col que divide de forma igualitária-->
+
+            <div class="col bg-primary">1</div>
+            <div class="col bg-dark text-white">2</div>
+            <div class="col bg-danger">3</div>
+            <div class="col bg-secondary">4</div>
+            <div class="col bg-info">5</div>
+            <div class="col bg-success">6</div>
+            <div class="col bg-dark text-white">7</div>
+            <div class="col bg-danger">8</div>
+            <div class="col bg-warning">9</div>
+            <div class="col bg-success">10</div>
+            <div class="col bg-info">11</div>
+            <div class="col bg-warning">12</div>
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+
+            <!--Usando elemntos que ocupam espaços diferentes-->
+
+            <div class="col bg-primary">1</div>
+            <div class="col-2 bg-danger">2</div>
+            <div class="col-3 bg-success">3</div>
+            <div class="col-4 bg-secondary">4</div>
+
+        </div>
+
+        <hr>
+        <div class="container">
+            <p class="display-3 fs-3 fw-semibold">2. Grid Responsivo</p>
+            <div class="row">
+
+                <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 bg-black text-white">Conteudo 1</div>
+                <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 bg-primary">Conteudo 1</div>
+                <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 bg-secondary">Conteudo 1</div>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <p class="display-3 fs-3 fw-semibold">3. Alinhamentri</p>
+
+            <div class="row" style="height: 300px;">
+
+                <div class="col-3 align-self-end bg-primary">1</div>
+                <div class="col-3 align-items-center bg-secondary">2</div>
+                <div class="col-3 align-content-start bg-warning">32</div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

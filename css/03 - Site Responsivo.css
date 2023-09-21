@@ -1,0 +1,65 @@
+@media (min-width: 576px) {
+    .principal {
+        background-color: red;
+    }
+
+    .RAINBOW {
+        font-size: 30px;
+        color: blue;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .principal {
+        background-color: blue;
+    }
+    .RAINBOW {
+        font-size: 40px;
+        color: red;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .principal {
+        background-color: green;
+    }
+    .RAINBOW {
+        font-size: 50px;
+        color: purple;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .principal {
+        background-color: purple;
+    }
+    .RAINBOW {
+        font-size: 60px;
+        color: yellow;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    .principal {
+        background-color: yellow;
+    }
+    .RAINBOW {
+        font-size: 70px;
+        color: green;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}

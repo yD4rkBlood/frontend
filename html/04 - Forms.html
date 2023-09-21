@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <!--Linkando com o CSS-->
+    <link rel="stylesheet" href="/css/novoEstilo.css">
+
+
+    <!--Linkando Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body class="container">
+
+    <form action="">
+
+        <h1 class="row display-3 text-dark fs-2 mt-2">1 - Inputs Texto</h1>
+
+        <input type="text" class="ms-2" hidden>
+
+        <input type="text" placeholder="Tipo Texto" class="form-control w-25 mt-3 border-1 fs-5 border-black">
+
+        <h1 class="row display-3 text-dark fs-2 mt-5">2 - Checkbox</h1>
+        <input type="checkbox" hidden>
+        <input type="checkbox" class="form-check-input mb-5 p-2 border-black">
+
+        <h1 class="row display-3 text-dark fs-2">3 - Radio</h1>
+        <input type="radio">
+        <input type="radio" class="form-check-input">
+
+        <h1 class="row display-4 text-dark mt-5 fs-2">4 - Range</h1>
+        <input type="range">
+        <input type="range" class="form-range mb-5 w-50 border border-black rounded">
+
+        <h1 class="row display-4 text-dark fs-2">5 - Select</h1>
+        <select name="" id="">
+
+            <option value="">1 - Pessimo</option>
+            <option value="">2 - Médio</option>
+            <option value="">3 - Bom</option>
+            <option value="">4 - Otimo</option>
+
+        </select>
+
+        <select class="form-select mt-3 mb-5 border border-black rounded w-25">
+
+            <option value="">1 - Digger</option>
+            <option value="">2 - Bigger</option>
+            <option value="">3 - Snigger</option>
+            <option value="">4 - Egger</option>
+
+        </select>
+
+        <h1 class="row display-4 text-dark fs-2">6 - Text Area</h1>
+        <textarea></textarea>
+        <textarea class="form-control mt-3 w-50 bg-dark text-white"> </textarea>
+
+        <h1 class="row display-4 text-dark fs-2 mt-5">7 - Alterando Cores</h1>
+        <p class="text-primary bg-info accordion">Mudando Cores</p>
+
+        <button class="mb-5 mt-5 fs-2 text-outline-primary btn btn-outline-danger bi bi-amd"> AMD</button>
+
+        <button class="bi bi-whatsapp fs-2 border-6 btn btn-outline-success"> Whatsapp</button>
+
+        <div class="input-group"></div>
+
+    </form>
+
+</body>
+
+</html>

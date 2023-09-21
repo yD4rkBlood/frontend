@@ -1,0 +1,49 @@
+@media (min-width: 576px) {
+    .principal {
+        background: url(/img/2pac.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 768px) {
+    .principal {
+        background: url(/img/big.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 992px) {
+    .principal {
+        background: url(/img/EAZY-E.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 1200px) {
+    .principal {
+        background: url(/img/icecube.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 1400px) {
+    .principal {
+        background: url(/img/snoop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
